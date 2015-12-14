@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18FDB4CD19CC195C0054623E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FDB4CC19CC195C0054623E /* Foundation.framework */; };
+		18FDB4CF19CC195C0054623E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FDB4CE19CC195C0054623E /* CoreGraphics.framework */; };
+		18FDB4D119CC195C0054623E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FDB4D019CC195C0054623E /* UIKit.framework */; };
+		18FDB4D719CC195C0054623E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18FDB4D519CC195C0054623E /* InfoPlist.strings */; };
+		18FDB4D919CC195C0054623E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FDB4D819CC195C0054623E /* main.m */; };
+		18FDB4DD19CC195C0054623E /* HMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FDB4DC19CC195C0054623E /* HMAppDelegate.m */; };
+		18FDB4E019CC195C0054623E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FDB4DE19CC195C0054623E /* Main.storyboard */; };
+		18FDB4E319CC195C0054623E /* HMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FDB4E219CC195C0054623E /* HMViewController.m */; };
+		18FDB4E519CC195C0054623E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FDB4E419CC195C0054623E /* Images.xcassets */; };
+		18FDB4EC19CC195C0054623E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FDB4EB19CC195C0054623E /* XCTest.framework */; };
+		18FDB4ED19CC195C0054623E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FDB4CC19CC195C0054623E /* Foundation.framework */; };
+		18FDB4EE19CC195C0054623E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FDB4D019CC195C0054623E /* UIKit.framework */; };
+		18FDB4F619CC195C0054623E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18FDB4F419CC195C0054623E /* InfoPlist.strings */; };
+		18FDB4F819CC195C0054623E /* _7_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FDB4F719CC195C0054623E /* _7_______Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18FDB4EF19CC195C0054623E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18FDB4C119CC195C0054623E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FDB4C819CC195C0054623E;
+			remoteInfo = "07-测试连接百度";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18FDB4C919CC195C0054623E /* 07-测试连接百度.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "07-测试连接百度.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FDB4CC19CC195C0054623E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18FDB4CE19CC195C0054623E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18FDB4D019CC195C0054623E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18FDB4D419CC195C0054623E /* 07-测试连接百度-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "07-测试连接百度-Info.plist"; sourceTree = "<group>"; };
+		18FDB4D619CC195C0054623E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18FDB4D819CC195C0054623E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18FDB4DA19CC195C0054623E /* 07-测试连接百度-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "07-测试连接百度-Prefix.pch"; sourceTree = "<group>"; };
+		18FDB4DB19CC195C0054623E /* HMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMAppDelegate.h; sourceTree = "<group>"; };
+		18FDB4DC19CC195C0054623E /* HMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMAppDelegate.m; sourceTree = "<group>"; };
+		18FDB4DF19CC195C0054623E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18FDB4E119CC195C0054623E /* HMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMViewController.h; sourceTree = "<group>"; };
+		18FDB4E219CC195C0054623E /* HMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMViewController.m; sourceTree = "<group>"; };
+		18FDB4E419CC195C0054623E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18FDB4EA19CC195C0054623E /* 07-测试连接百度Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "07-测试连接百度Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FDB4EB19CC195C0054623E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		18FDB4F319CC195C0054623E /* 07-测试连接百度Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "07-测试连接百度Tests-Info.plist"; sourceTree = "<group>"; };
+		18FDB4F519CC195C0054623E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18FDB4F719CC195C0054623E /* _7_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_7_______Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18FDB4C619CC195C0054623E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FDB4CF19CC195C0054623E /* CoreGraphics.framework in Frameworks */,
+				18FDB4D119CC195C0054623E /* UIKit.framework in Frameworks */,
+				18FDB4CD19CC195C0054623E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FDB4E719CC195C0054623E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FDB4EC19CC195C0054623E /* XCTest.framework in Frameworks */,
+				18FDB4EE19CC195C0054623E /* UIKit.framework in Frameworks */,
+				18FDB4ED19CC195C0054623E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18FDB4C019CC195C0054623E = {
+			isa = PBXGroup;
+			children = (
+				18FDB4D219CC195C0054623E /* 07-测试连接百度 */,
+				18FDB4F119CC195C0054623E /* 07-测试连接百度Tests */,
+				18FDB4CB19CC195C0054623E /* Frameworks */,
+				18FDB4CA19CC195C0054623E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18FDB4CA19CC195C0054623E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18FDB4C919CC195C0054623E /* 07-测试连接百度.app */,
+				18FDB4EA19CC195C0054623E /* 07-测试连接百度Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18FDB4CB19CC195C0054623E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18FDB4CC19CC195C0054623E /* Foundation.framework */,
+				18FDB4CE19CC195C0054623E /* CoreGraphics.framework */,
+				18FDB4D019CC195C0054623E /* UIKit.framework */,
+				18FDB4EB19CC195C0054623E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18FDB4D219CC195C0054623E /* 07-测试连接百度 */ = {
+			isa = PBXGroup;
+			children = (
+				18FDB4DB19CC195C0054623E /* HMAppDelegate.h */,
+				18FDB4DC19CC195C0054623E /* HMAppDelegate.m */,
+				18FDB4DE19CC195C0054623E /* Main.storyboard */,
+				18FDB4E119CC195C0054623E /* HMViewController.h */,
+				18FDB4E219CC195C0054623E /* HMViewController.m */,
+				18FDB4E419CC195C0054623E /* Images.xcassets */,
+				18FDB4D319CC195C0054623E /* Supporting Files */,
+			);
+			path = "07-测试连接百度";
+			sourceTree = "<group>";
+		};
+		18FDB4D319CC195C0054623E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18FDB4D419CC195C0054623E /* 07-测试连接百度-Info.plist */,
+				18FDB4D519CC195C0054623E /* InfoPlist.strings */,
+				18FDB4D819CC195C0054623E /* main.m */,
+				18FDB4DA19CC195C0054623E /* 07-测试连接百度-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18FDB4F119CC195C0054623E /* 07-测试连接百度Tests */ = {
+			isa = PBXGroup;
+			children = (
+				18FDB4F719CC195C0054623E /* _7_______Tests.m */,
+				18FDB4F219CC195C0054623E /* Supporting Files */,
+			);
+			path = "07-测试连接百度Tests";
+			sourceTree = "<group>";
+		};
+		18FDB4F219CC195C0054623E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18FDB4F319CC195C0054623E /* 07-测试连接百度Tests-Info.plist */,
+				18FDB4F419CC195C0054623E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18FDB4C819CC195C0054623E /* 07-测试连接百度 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FDB4FB19CC195C0054623E /* Build configuration list for PBXNativeTarget "07-测试连接百度" */;
+			buildPhases = (
+				18FDB4C519CC195C0054623E /* Sources */,
+				18FDB4C619CC195C0054623E /* Frameworks */,
+				18FDB4C719CC195C0054623E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "07-测试连接百度";
+			productName = "07-测试连接百度";
+			productReference = 18FDB4C919CC195C0054623E /* 07-测试连接百度.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18FDB4E919CC195C0054623E /* 07-测试连接百度Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FDB4FE19CC195C0054623E /* Build configuration list for PBXNativeTarget "07-测试连接百度Tests" */;
+			buildPhases = (
+				18FDB4E619CC195C0054623E /* Sources */,
+				18FDB4E719CC195C0054623E /* Frameworks */,
+				18FDB4E819CC195C0054623E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18FDB4F019CC195C0054623E /* PBXTargetDependency */,
+			);
+			name = "07-测试连接百度Tests";
+			productName = "07-测试连接百度Tests";
+			productReference = 18FDB4EA19CC195C0054623E /* 07-测试连接百度Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18FDB4C119CC195C0054623E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = heima;
+				TargetAttributes = {
+					18FDB4E919CC195C0054623E = {
+						TestTargetID = 18FDB4C819CC195C0054623E;
+					};
+				};
+			};
+			buildConfigurationList = 18FDB4C419CC195C0054623E /* Build configuration list for PBXProject "07-测试连接百度" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18FDB4C019CC195C0054623E;
+			productRefGroup = 18FDB4CA19CC195C0054623E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18FDB4C819CC195C0054623E /* 07-测试连接百度 */,
+				18FDB4E919CC195C0054623E /* 07-测试连接百度Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18FDB4C719CC195C0054623E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FDB4E519CC195C0054623E /* Images.xcassets in Resources */,
+				18FDB4D719CC195C0054623E /* InfoPlist.strings in Resources */,
+				18FDB4E019CC195C0054623E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FDB4E819CC195C0054623E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FDB4F619CC195C0054623E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18FDB4C519CC195C0054623E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FDB4E319CC195C0054623E /* HMViewController.m in Sources */,
+				18FDB4D919CC195C0054623E /* main.m in Sources */,
+				18FDB4DD19CC195C0054623E /* HMAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FDB4E619CC195C0054623E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FDB4F819CC195C0054623E /* _7_______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18FDB4F019CC195C0054623E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18FDB4C819CC195C0054623E /* 07-测试连接百度 */;
+			targetProxy = 18FDB4EF19CC195C0054623E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18FDB4D519CC195C0054623E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FDB4D619CC195C0054623E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18FDB4DE19CC195C0054623E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FDB4DF19CC195C0054623E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18FDB4F419CC195C0054623E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FDB4F519CC195C0054623E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18FDB4F919CC195C0054623E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18FDB4FA19CC195C0054623E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18FDB4FC19CC195C0054623E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "07-测试连接百度/07-测试连接百度-Prefix.pch";
+				INFOPLIST_FILE = "07-测试连接百度/07-测试连接百度-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18FDB4FD19CC195C0054623E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "07-测试连接百度/07-测试连接百度-Prefix.pch";
+				INFOPLIST_FILE = "07-测试连接百度/07-测试连接百度-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		18FDB4FF19CC195C0054623E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/07-测试连接百度.app/07-测试连接百度";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "07-测试连接百度/07-测试连接百度-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "07-测试连接百度Tests/07-测试连接百度Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		18FDB50019CC195C0054623E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/07-测试连接百度.app/07-测试连接百度";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "07-测试连接百度/07-测试连接百度-Prefix.pch";
+				INFOPLIST_FILE = "07-测试连接百度Tests/07-测试连接百度Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18FDB4C419CC195C0054623E /* Build configuration list for PBXProject "07-测试连接百度" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FDB4F919CC195C0054623E /* Debug */,
+				18FDB4FA19CC195C0054623E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FDB4FB19CC195C0054623E /* Build configuration list for PBXNativeTarget "07-测试连接百度" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FDB4FC19CC195C0054623E /* Debug */,
+				18FDB4FD19CC195C0054623E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18FDB4FE19CC195C0054623E /* Build configuration list for PBXNativeTarget "07-测试连接百度Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FDB4FF19CC195C0054623E /* Debug */,
+				18FDB50019CC195C0054623E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18FDB4C119CC195C0054623E /* Project object */;
+}
